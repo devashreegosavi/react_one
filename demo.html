@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+    <script>
+        function NavClick(){
+            alert("Navbar click");
+        }
+
+        function SigninClick(e){
+            e.stopPropogation();
+            alert("Signin click");
+        }
+    </script>
+</head>
+<body>
+    <nav onclick="NavClick()">
+        <div>
+            <h2>Shopping</h2>
+        </div>
+        <div>
+            <span>Home</span>
+            <span>AboutUs</span>
+            <span>ContactUs</span>
+        </div>
+        <div>
+            <button onclick="SigninClick(event)">SignIn</button>
+        </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var userName ='';
+        function bodyLoad(){
+            userName='Jony';
+            document.getElementById('txtName').value=userName;
+            document.querySelector('p').innerHTML=` Hello! ${userName}`;
+        }
+
+        function changeName(){
+            userName = document.getElementById('txtName').value;
+            document.querySelector('p').innerHTML=` Hello! ${userName}`;
+        }
+    </script>
+</head>
+<body onload="bodyLoad()">
+    <input type="text" id="txtName" onkeypress="changeName()">
+    <p></p>
+</body>
+</html>
