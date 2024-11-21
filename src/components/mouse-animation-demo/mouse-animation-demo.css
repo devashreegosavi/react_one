@@ -1,0 +1,14 @@
+@keyframes Rotate{
+    from{
+        transform: rotate(0deg) scale(1);
+    }
+    to{
+        transform: rotate(360deg) scale(2);
+    }
+}
+.logo{
+    animation-name:Rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

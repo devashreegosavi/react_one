@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function verify(e){
+            /*var otp = document.getElementById("otp").value;
+            var p = document.querySelector("p");
+
+            if(otp ==="3456"){
+                p.innerHTML="Verified";
+            }else{
+                p.innerHTML="Not Verified";
+            }*/
+           //console.log(`char code : ${e.charCode}`);
+           console.log(`char code : ${e.which}`);
+        }
+    </script>
+</head>
+<body>
+    OTP : <input type="text" onkeypress="verify(event)" id="otp">
+    <p></p>
+</body>
+</html>

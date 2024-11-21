@@ -24,11 +24,13 @@ import { EventBindingN } from './components/event-binding_n/event-binding_n';
 import { EventBindingCustom } from './components/event_binding_custom/event_binding_custom';
 import { EventBinding } from './components/event-binding/event-binding';
 import { MouseDemo } from './components/mouse-demo/mouse-demo';
-*/
-
 import { MouseAnimation } from './components/mouse-animation/mouse-animation';
-
-
+import { MouseAnimationTwo } from './components/mouse-animation-two/mouse-animation-two';
+import { MouseAnimationDemo } from './components/mouse-animation-demo/mouse-animation-demo';
+import { MouseDynamicAnimation } from './components/mouse-dynamic-animation/mouse-dynamic-animation';
+import { MouseAnimationMove } from './components/mouse-animation-move/mouse-animation-move';
+*/
+import { KeyDemo } from './components/key_demo/key_demo';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import bootstrap from 'bootstrap'; //for javascript js file
@@ -36,7 +38,7 @@ import bootstrap from 'bootstrap'; //for javascript js file
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MouseAnimation />
+    <KeyDemo />
   </React.StrictMode>
 );
 
