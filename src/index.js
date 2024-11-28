@@ -29,8 +29,15 @@ import { MouseAnimationTwo } from './components/mouse-animation-two/mouse-animat
 import { MouseAnimationDemo } from './components/mouse-animation-demo/mouse-animation-demo';
 import { MouseDynamicAnimation } from './components/mouse-dynamic-animation/mouse-dynamic-animation';
 import { MouseAnimationMove } from './components/mouse-animation-move/mouse-animation-move';
-*/
 import { KeyDemo } from './components/key_demo/key_demo';
+import { ElementState } from './components/element-state/element-state';
+import { ElementStateCheckbox } from './components/element-state-checkbox/element-state-checkbox';
+import { ButtonDemo } from './components/button-demo/button-demo';
+import { ClipboardDemo } from './components/clipboard-demo/clipboard-demo';
+
+*/
+
+import { EmiCalculator } from './components/emi-calculator/emi-calculator';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import bootstrap from 'bootstrap'; //for javascript js file
@@ -38,7 +45,7 @@ import bootstrap from 'bootstrap'; //for javascript js file
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <KeyDemo />
+    <EmiCalculator />
   </React.StrictMode>
 );
 
