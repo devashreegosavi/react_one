@@ -34,10 +34,14 @@ import { ElementState } from './components/element-state/element-state';
 import { ElementStateCheckbox } from './components/element-state-checkbox/element-state-checkbox';
 import { ButtonDemo } from './components/button-demo/button-demo';
 import { ClipboardDemo } from './components/clipboard-demo/clipboard-demo';
-
+import { EmiCalculator } from './components/emi-calculator/emi-calculator';
+import { TimeoutDemo } from './components/timeout-demo/timeout-demo';
+import { TimeoutEvent } from './components/timeout-event/timeout-event';
+import { IntervalDemo } from './components/interval-demo/interval-demo';
+import { IntervalEvent } from './components/interval-event/interval-event';
 */
 
-import { EmiCalculator } from './components/emi-calculator/emi-calculator';
+import { DateDemo } from './components/date-demo/date-demo';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import bootstrap from 'bootstrap'; //for javascript js file
@@ -45,7 +49,7 @@ import bootstrap from 'bootstrap'; //for javascript js file
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <EmiCalculator />
+    <DateDemo />
   </React.StrictMode>
 );
 
